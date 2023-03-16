@@ -1,0 +1,240 @@
+
+
+
+body{
+     margin: 100;
+     padding: 100;
+    background-color: #003940;
+}
+
+.left {
+width: 500px;
+height: 90%;
+padding: auto;
+float: left;
+}
+
+.right {
+
+    float: right;
+    padding: auto;
+}
+
+h1 {
+
+    font-size: xx-large;
+
+
+}
+header{
+    width: 100%;
+    height: 500px;
+    display: inline;
+    background-color: #003940;
+
+
+}
+
+main{
+
+justify-content: center;
+width: 100%;
+height: 600px;
+display: flex;
+background-color: #003940;
+color: aliceblue;
+}
+
+body main .about h3,body main .about .h3 {
+    font-size: 34px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 50px;
+    animation: letterSpacing_animation 5s infinite;
+    -webkit-animation: letterSpacing_animation 5s infinite
+}
+
+body main .about .about-cont {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto
+}
+
+body main .about .about-card {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px 20px
+}
+
+body main .about .about-card img {
+    width: 55%;
+    margin-bottom: 30px;
+    animation: zoom_animation 2s infinite;
+    -webkit-animation: zoom_animation 2s infinite
+}
+
+body main .about .about-card h4,body main .about .about-card .h4 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 15px
+}
+
+body main .about .about-card p {
+    font-size: 15px;
+    line-height: 200%;
+    opacity: .8
+}
+
+body main .about .about-card:hover {
+    transform: scale(1.1);
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1)
+}
+
+
+body main .skills {
+    margin-top: 100px
+}
+
+body main .skills h3,body main .skills .h3 {
+    font-size: 34px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 50px;
+    animation: letterSpacing_animation 5s infinite;
+    -webkit-animation: letterSpacing_animation 5s infinite
+}
+
+body main .skills .logo-skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color:#00E4FF; */
+    padding: 20px 
+}
+
+body main .skills .logo-skills img {
+    margin: 0 25px
+}
+
+ody main .projects {
+    margin-top: 150px
+}
+
+body main .projects h3,body main .projects .h3 {
+    font-size: 34px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 50px;
+    animation: letterSpacing_animation 5s infinite;
+    -webkit-animation: letterSpacing_animation 5s infinite
+}
+
+body main .projects .projects-cont {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto
+}
+
+body main .projects .projects-cont .projects-card {
+    margin: 0 15px;
+    background-color: #232148;
+    padding: 30px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px
+}
+
+body main .projects .projects-cont .projects-card img {
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px
+}
+
+body main .projects .projects-cont .projects-card h4,body main .projects .projects-cont .projects-card .h4 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 12px
+}
+
+body main .projects .projects-cont .projects-card p {
+    font-size: 15px;
+    line-height: 200%;
+    opacity: .8;
+    margin-bottom: 30px
+}
+
+body main .projects .projects-cont .projects-card .btn-purple {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5468ff;
+    padding: 16px 24px;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff
+}
+
+body main .projects .projects-cont .projects-card .btn-purple:hover {
+    opacity: .6;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s
+}
+
+body main .projects .projects-cont .projects-card:hover {
+    transform: scale(1.1);
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1)
+}
+
+
+body footer {
+    background-color:#003940;
+    padding-bottom: 20px
+}
+
+body footer .footer-line {
+    height: 1px;
+    width: 100%;
+    background-color: #fff;
+    opacity: .25
+}
+
+body footer p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 30px;
+    opacity: .8
+}
