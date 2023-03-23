@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 4</title>
+
+    <style>
+        * {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        box-sizing: border-box;
+    }
+    .hero{
+
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) ,url(Assets/bg.jpg);
+        background-size: cover;
+        background-position:center ;
+        background-repeat: no-repeat;
+
+    } 
+
+    nav{
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 45px 8% 0 8%;
+
+    }
+
+    .logo{
+
+
+        color: aliceblue;
+        font-size: 35px;
+        letter-spacing: 1px;
+        cursor: pointer;
+    }
+
+    nav ul li {
+        list-style: none;
+        display: inline-block;
+        padding: 10px 25px;
+    }
+    nav ul li a{
+
+        text-decoration: none;
+        color: aliceblue;
+        font-weight: bold;
+    }
+
+    nav ul li a:hover{
+        color:rgb(169, 12, 12);
+        transition: .4s;
+
+    } 
+
+    .content{
+        position: absolute ;
+        top: 50%;
+        left: 8%;
+        transform: translateY(-50%);
+    }
+
+    h1{
+        color: white;
+        font-size: 50px;
+        margin: 10px 0px 10px;
+    }
+    h3{
+        color: white;
+        letter-spacing: 2px;
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+    h4{
+        color:rgb(169, 12, 12);
+        letter-spacing: 2px;
+        font-size: 20px;
+    }
+    .news form {
+        width: 300px;
+        max-width: 100%;
+        position: relative;
+    }
+    .news form input:first-child{
+        display: inline-block;
+        width: 100%;
+        padding: 14px 130px 14px 15px;
+        border: 2px solid rgb(169, 12, 12);
+        outline: none;
+        border-radius: 30px;
+    }
+    .news form input:last-child{
+        position: absolute;
+        display: inline-block;
+        outline: none;
+        padding: 10px 30px;
+        border: none;
+        border-radius: 30px;
+        background-color: rgb(169, 12, 12);
+        box-shadow: 0px 0px 5px #000 , 0px 0px 15px #858585;
+        top: 6px;
+        right: 6px;
+        color: white;
+    }
+    .about {
+        width: 100%;
+        padding: 100px 0px;
+        background-color:rgb(9, 9, 9);
+    }
+
+    .about img{
+
+        height: auto;
+        width: 430px;
+    }
+    .about-text{
+        width: 550px;
+        
+    }
+    .main{
+        width: 1130px;
+        max-width: 95%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around ; 
+    }
+
+    .about-text h2{
+
+        color: white;
+        letter-spacing: 2px;
+        font-size: 60px;
+        margin-bottom: 25px;
+
+    }
+    .about-text h5{
+        color: white;
+        letter-spacing: 2px;
+        font-size: 20px;
+        margin-bottom: 25px;
+        text-transform: capitalize;
+    }
+    .about-text p{
+        color: white;
+        letter-spacing: 1px;
+        line-height: 28px;
+        font-size: 18px;
+        margin-bottom: 45px;
+
+    }
+    button{
+        background-color: rgb(169, 12, 12);
+        color: white;
+        border: 2px solid transparent;
+        font-weight: bold;
+        padding: 13px 30px;
+        border-radius: 30px;
+        transition: .4s;
+    }
+    
+
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <h2> <div class="logo">Port<span style="color: rgb(169, 12, 12);">folio</span></div></h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Project</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="content">
+            <h4>Hello My Name is </h4>
+            <h1>Dyas Tri <span style="color :rgb(169, 12, 12);"> Apriliansyah </span> </h1>
+            <h3>I am Front-End Developer</h3>
+            <div class="news">
+
+                <form action="">
+                    <input type="email" name="email" placeholder="input your Email" id="mail">
+                    <input type="submit" value="Send" name="submit">
+                </form>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <div class="about">
+        <div class="main"> 
+            <img src="Assets/dyas.jpeg" alt="">
+            <div class="about-text">
+
+                <h2>About Me</h2>
+                <h5>Developer <span> & Designer</span></h5>
+                <p>Iam is a programmer and designer web in NASA</p>
+                <button type="button">Lets Talk</button>
+            </div>
+        </div>
+    </div>
+
+
+   
+
+
+    
+</body>
+</html>
