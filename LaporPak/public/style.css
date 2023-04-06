@@ -1,0 +1,238 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) ,url('https://i.pinimg.com/600x315/05/40/15/054015c18409d953a854c1a35148f4b2.jpg');
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+
+} 
+
+nav{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px 8% 0 8%;
+
+}
+
+.logo{
+
+
+    color: aliceblue;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color:orange;
+    transition: .4s;
+
+} 
+
+.content{
+    position: absolute ;
+    top: 30%;
+    left: 23%;
+    transform: translateY(-50%);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    margin: 10px 0px 10px;
+}
+h3{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+h4{
+    color:white;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.news form {
+    width: 300px;
+    max-width: 100%;
+    position: relative;
+}
+.news form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid orange;
+    outline: none;
+    border-radius: 30px;
+}
+.news form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: orange;
+    box-shadow: 0px 0px 5px #000 , 0px 0px 15px #858585;
+    top: 6px;
+    right: 6px;
+    color: white;
+}
+.about {
+    width: 100%;
+    padding: 100px 0px;
+    background-color:rgb(9, 9, 9);
+}
+
+.about img{
+
+    height: auto;
+    width: 430px;
+}
+.about-text{
+    width: 1000px;
+    
+}
+.main{
+    width: 1130px;
+    max-width: 95%; 
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    text-align: center; 
+}
+
+.about-text h2{
+
+    color: white;
+    letter-spacing: 2px;
+    font-size: 40px;
+    margin-top: 100px;
+
+}
+.about-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 40px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+.about-text p{
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+
+}
+button{
+    background-color: gray;
+    color: white;
+    border: 2px solid orange;
+    font-weight: bold;
+    padding: 13px 30px;
+    transition: .4s;
+    width: 300px;
+    top: 60%;
+    
+    
+}
+
+.button:hover {
+    background-color: orange ;
+    color: white;
+    transition-duration: .4s;
+
+}
+
+.box{
+
+    width: 800px;
+    height: 500px;
+    background-color: grey;
+    position: absolute ;
+    top: 80%;
+    left: 23%;
+    transform: translateY(-50%);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    box-shadow: #000;
+}
+.box2{
+    width: 800px;
+    height: 40px;
+    background-color: orange;
+    padding: 10px;
+    color: white;   
+}
+.box3{
+margin-top: 20px;
+
+
+}
+h4{
+    color: white;
+    
+}
+.pengaduan{
+    font-size:larger ;
+    text-align: start;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.box4{
+margin-top: 10px;
+    
+}
+.box4 input{
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.box textarea{
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+.box4 button{
+    margin-top: 40fpx;
+}
+
+footer{
+
+    text-align: center;
+    background-color:black;
+    opacity: 70%;
+    color: white;
+}
